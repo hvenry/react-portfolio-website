@@ -39,6 +39,7 @@
     cursor: pointer;
   }
   
+  /* when navbar is open */
   #open {
     height: 100vh;
   }
