@@ -6,8 +6,10 @@ import ReorderIcon from '@material-ui/icons/Reorder';
 function Navbar() {
     // state in application to see if we have expanded navbar
     const [expandedNavbar, setExpandedNavbar] = useState(false);
+
     // grab location, var used to see what page we are on
     const location = useLocation();
+
     // run useEffect when location changes
     useEffect(() => {
         // set navbar to false when location changes
@@ -26,6 +28,7 @@ function Navbar() {
                     <ReorderIcon />
                 </button>
             </div>
+            
             <div className="links">
                 <Link to ="/"> Home </Link>
                 <Link to ="/projects"> Projects </Link>
