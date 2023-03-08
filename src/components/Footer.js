@@ -7,9 +7,15 @@ import "../styles/Footer.css"
 function Footer() {
   return <div className="footer">
         <div className="socialMedia">
+            <a href="https://www.linkedin.com/in/henryvendittelli/" target="_blank" rel="noreferrer">
             <LinkedInIcon />
+            </a>
+            <a href="https://github.com/hvenry" target="_blank" rel="noreferrer">
             <GitHubIcon />
+            </a>
+            <a href="https://www.facebook.com/hvenry" target="_blank" rel="noreferrer">
             <FacebookIcon />
+            </a>
         </div>
         <p> Henry Vendittelli 2023</p>
     </div>
