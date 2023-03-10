@@ -1,10 +1,9 @@
 import React from 'react'
-
 import "../styles/Home.css"
 
 function Home() {
   return <div className="home">
-      <div className="about">
+      <div className="prompt">
         <h2>Hello World!</h2>
         <p>
           My name is Henry and I am an undergraduate computer science student.
@@ -17,19 +16,19 @@ function Home() {
           <li className="item">
             <h2>Languages</h2>
             <span>
-              JavaScript, Java, Python, C#, C, Prolog, Lua
+              Python, JavaScript, Java, C#, C, Prolog, Lua
             </span>
           </li>
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, React Native, Yarn, MaterialUI, TailwindCSS
+              ReactJS, HTML, CSS, Yarn, MaterialUI
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, MySQL, .NET, AWS
+              NodeJS, MySQL
             </span>
           </li>
         </ol>

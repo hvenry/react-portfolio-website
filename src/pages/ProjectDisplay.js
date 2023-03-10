@@ -3,7 +3,7 @@ import React from 'react';
 import { useParams} from 'react-router-dom';
 // get our project list for individual project display
 import { ProjectList } from '../helpers/ProjectList';
-import GitHubIcon from '@material-ui/icons/GitHub';
+// import GitHubIcon from '@material-ui/icons/GitHub';
 import '../styles/ProjectDisplay.css';
 
 // grab the id and display it on screen
@@ -17,7 +17,7 @@ function ProjectDisplay() {
             <p>
                 <b>Skills:</b> {project.skills}
             </p>
-            <GitHubIcon />
+            {/* <GitHubIcon /> */}
         </div>
     );
 }

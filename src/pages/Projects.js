@@ -10,7 +10,7 @@ import '../styles/Projects.css'
 function Projects() {
   return (
   <div className="projects">
-    <h1> My personal projects </h1>
+    <h2> Projects </h2>
     {/* display projects */}
     <div className="projectList">
       {/* map is a function in js that will loop through each element in the list */}

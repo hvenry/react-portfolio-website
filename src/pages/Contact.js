@@ -1,13 +1,22 @@
 import React from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import '../styles/Contact.css'
+import Resume from '../assets/HenryVendittelliResume.pdf'
+import GetAppIcon from '@material-ui/icons/GetApp'
 
 function Contact() {
   return(
-    <div>
-      Hello! Click the logo to navigate to the site
-      <a href="https://www.linkedin.com/in/henryvendittelli/" target="_blank" rel="noreferrer">
-        <LinkedInIcon />
-      </a>
+    <div className="contact">
+      <h1>
+        Contact (TODO)
+      </h1>
+
+      <div className="socialMedia">
+        <h2>Resume</h2>
+        <a href={Resume} target="_blank" rel="noreferrer">
+            <GetAppIcon />
+        </a>
+      </div>
+      
     </div>
   );
 }

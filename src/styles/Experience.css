@@ -1,0 +1,40 @@
+.about{
+    width: 100%;
+}
+
+.about h2{
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+}
+
+
+.about p{
+    width: 55%;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 25px
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 825px) {
+    
+    .about h2{
+        font-size: 50px;
+        padding: 0;
+        padding-bottom: 25px;
+    }
+    .about p {
+      font-size: 15px;
+      width: 80%;
+    }
+}

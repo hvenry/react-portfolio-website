@@ -2,7 +2,7 @@
   color: rgb(0, 0, 0);
 }
 
-.about {
+.prompt {
   width: 100%;
   height: calc(100vh - 75px);
   display: flex;
@@ -13,11 +13,11 @@
   background-color: transparent;
 }
 
-.about h2 {
+.prompt h2 {
   font-size: 75px;
 }
 
-.about p{
+.prompt p{
   width: 60%;
   font-size: 25px;
   font-weight: bold;
@@ -36,7 +36,7 @@
 
 .skills .list {
   list-style: none;
-  width: 60%;
+  width: 70%;
 }
 
 .list span {
@@ -44,24 +44,29 @@
 }
 
 @media only screen and (max-width: 825px) {
-  .about h2 {
+  .prompt h2 {
     font-size: 40px;
   }
 
-  .about .prompt {
-    margin-top: 10px;
-    font-size: 20px;
-    width: 80%;
+  .prompt p{
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .skills {
     text-align: center;
   }
+
   .list {
     padding: 0;
   }
 
   .skills h2 {
     font-size: 30px;
+  }
+
+  .list span {
+    font-size: 20px;
   }
 }
